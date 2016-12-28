@@ -1,0 +1,2029 @@
+{
+  "name": "Amy Ingram",
+  "created": "2016-12-16T16:06:19.563Z",
+  "intents": [
+    {
+      "intent": "cs-goodbye",
+      "created": "2016-12-16T16:06:19.563Z",
+      "updated": "2016-12-16T16:06:19.563Z",
+      "examples": [
+        {
+          "text": "adieu",
+          "created": "2016-12-16T16:06:19.563Z",
+          "updated": "2016-12-16T16:06:19.563Z"
+        },
+        {
+          "text": "adios",
+          "created": "2016-12-16T16:06:19.563Z",
+          "updated": "2016-12-16T16:06:19.563Z"
+        },
+        {
+          "text": "au revoir",
+          "created": "2016-12-16T16:06:19.563Z",
+          "updated": "2016-12-16T16:06:19.563Z"
+        },
+        {
+          "text": "bye",
+          "created": "2016-12-16T16:06:19.563Z",
+          "updated": "2016-12-16T16:06:19.563Z"
+        },
+        {
+          "text": "bye now",
+          "created": "2016-12-16T16:06:19.563Z",
+          "updated": "2016-12-16T16:06:19.563Z"
+        },
+        {
+          "text": "cya",
+          "created": "2016-12-16T16:06:19.563Z",
+          "updated": "2016-12-16T16:06:19.563Z"
+        },
+        {
+          "text": "farewell",
+          "created": "2016-12-16T16:06:19.563Z",
+          "updated": "2016-12-16T16:06:19.563Z"
+        },
+        {
+          "text": "goodbye",
+          "created": "2016-12-16T16:06:19.563Z",
+          "updated": "2016-12-16T16:06:19.563Z"
+        },
+        {
+          "text": "good bye",
+          "created": "2016-12-16T16:06:19.563Z",
+          "updated": "2016-12-16T16:06:19.563Z"
+        },
+        {
+          "text": "good day",
+          "created": "2016-12-16T16:06:19.563Z",
+          "updated": "2016-12-16T16:06:19.563Z"
+        },
+        {
+          "text": "good night",
+          "created": "2016-12-16T16:06:19.563Z",
+          "updated": "2016-12-16T16:06:19.563Z"
+        },
+        {
+          "text": "gotta go",
+          "created": "2016-12-16T16:06:19.563Z",
+          "updated": "2016-12-16T16:06:19.563Z"
+        },
+        {
+          "text": "gotta run",
+          "created": "2016-12-16T16:06:19.563Z",
+          "updated": "2016-12-16T16:06:19.563Z"
+        },
+        {
+          "text": "got to go",
+          "created": "2016-12-16T16:06:19.563Z",
+          "updated": "2016-12-16T16:06:19.563Z"
+        },
+        {
+          "text": "gtg",
+          "created": "2016-12-16T16:06:19.563Z",
+          "updated": "2016-12-16T16:06:19.563Z"
+        },
+        {
+          "text": "have to go",
+          "created": "2016-12-16T16:06:19.563Z",
+          "updated": "2016-12-16T16:06:19.563Z"
+        },
+        {
+          "text": "have to leave",
+          "created": "2016-12-16T16:06:19.563Z",
+          "updated": "2016-12-16T16:06:19.563Z"
+        },
+        {
+          "text": "have to run",
+          "created": "2016-12-16T16:06:19.563Z",
+          "updated": "2016-12-16T16:06:19.563Z"
+        },
+        {
+          "text": "I'm leaving",
+          "created": "2016-12-16T16:06:19.563Z",
+          "updated": "2016-12-16T16:06:19.563Z"
+        },
+        {
+          "text": "I'm off",
+          "created": "2016-12-16T16:06:19.563Z",
+          "updated": "2016-12-16T16:06:19.563Z"
+        },
+        {
+          "text": "kthxbai",
+          "created": "2016-12-16T16:06:19.563Z",
+          "updated": "2016-12-16T16:06:19.563Z"
+        },
+        {
+          "text": "kthxbye",
+          "created": "2016-12-16T16:06:19.563Z",
+          "updated": "2016-12-16T16:06:19.563Z"
+        },
+        {
+          "text": "later",
+          "created": "2016-12-16T16:06:19.563Z",
+          "updated": "2016-12-16T16:06:19.563Z"
+        },
+        {
+          "text": "laters",
+          "created": "2016-12-16T16:06:19.563Z",
+          "updated": "2016-12-16T16:06:19.563Z"
+        },
+        {
+          "text": "logging off",
+          "created": "2016-12-16T16:06:19.563Z",
+          "updated": "2016-12-16T16:06:19.563Z"
+        },
+        {
+          "text": "my time is up",
+          "created": "2016-12-16T16:06:19.563Z",
+          "updated": "2016-12-16T16:06:19.563Z"
+        },
+        {
+          "text": "need to go",
+          "created": "2016-12-16T16:06:19.563Z",
+          "updated": "2016-12-16T16:06:19.563Z"
+        },
+        {
+          "text": "need to leave",
+          "created": "2016-12-16T16:06:19.563Z",
+          "updated": "2016-12-16T16:06:19.563Z"
+        },
+        {
+          "text": "need to run",
+          "created": "2016-12-16T16:06:19.563Z",
+          "updated": "2016-12-16T16:06:19.563Z"
+        },
+        {
+          "text": "ok bye",
+          "created": "2016-12-16T16:06:19.563Z",
+          "updated": "2016-12-16T16:06:19.563Z"
+        },
+        {
+          "text": "out of time",
+          "created": "2016-12-16T16:06:19.563Z",
+          "updated": "2016-12-16T16:06:19.563Z"
+        },
+        {
+          "text": "over and out",
+          "created": "2016-12-16T16:06:19.563Z",
+          "updated": "2016-12-16T16:06:19.563Z"
+        },
+        {
+          "text": "see ya",
+          "created": "2016-12-16T16:06:19.563Z",
+          "updated": "2016-12-16T16:06:19.563Z"
+        },
+        {
+          "text": "see ya later",
+          "created": "2016-12-16T16:06:19.563Z",
+          "updated": "2016-12-16T16:06:19.563Z"
+        },
+        {
+          "text": "see ya soon",
+          "created": "2016-12-16T16:06:19.563Z",
+          "updated": "2016-12-16T16:06:19.563Z"
+        },
+        {
+          "text": "see you",
+          "created": "2016-12-16T16:06:19.563Z",
+          "updated": "2016-12-16T16:06:19.563Z"
+        },
+        {
+          "text": "see you later",
+          "created": "2016-12-16T16:06:19.563Z",
+          "updated": "2016-12-16T16:06:19.563Z"
+        },
+        {
+          "text": "see you soon",
+          "created": "2016-12-16T16:06:19.563Z",
+          "updated": "2016-12-16T16:06:19.563Z"
+        },
+        {
+          "text": "should be going",
+          "created": "2016-12-16T16:06:19.563Z",
+          "updated": "2016-12-16T16:06:19.563Z"
+        },
+        {
+          "text": "should go",
+          "created": "2016-12-16T16:06:19.563Z",
+          "updated": "2016-12-16T16:06:19.563Z"
+        },
+        {
+          "text": "signing off",
+          "created": "2016-12-16T16:06:19.563Z",
+          "updated": "2016-12-16T16:06:19.563Z"
+        },
+        {
+          "text": "signing out",
+          "created": "2016-12-16T16:06:19.563Z",
+          "updated": "2016-12-16T16:06:19.563Z"
+        },
+        {
+          "text": "so long",
+          "created": "2016-12-16T16:06:19.563Z",
+          "updated": "2016-12-16T16:06:19.563Z"
+        },
+        {
+          "text": "thanks, bye",
+          "created": "2016-12-16T16:06:19.563Z",
+          "updated": "2016-12-16T16:06:19.563Z"
+        },
+        {
+          "text": "thank you, bye",
+          "created": "2016-12-16T16:06:19.563Z",
+          "updated": "2016-12-16T16:06:19.563Z"
+        },
+        {
+          "text": "then bye",
+          "created": "2016-12-16T16:06:19.563Z",
+          "updated": "2016-12-16T16:06:19.563Z"
+        },
+        {
+          "text": "time to go",
+          "created": "2016-12-16T16:06:19.563Z",
+          "updated": "2016-12-16T16:06:19.563Z"
+        },
+        {
+          "text": "toodles",
+          "created": "2016-12-16T16:06:19.563Z",
+          "updated": "2016-12-16T16:06:19.563Z"
+        }
+      ],
+      "description": null
+    },
+    {
+      "intent": "cs-hello",
+      "created": "2016-12-16T16:06:19.563Z",
+      "updated": "2016-12-16T16:06:19.563Z",
+      "examples": [
+        {
+          "text": "afternoon",
+          "created": "2016-12-16T16:06:19.563Z",
+          "updated": "2016-12-16T16:06:19.563Z"
+        },
+        {
+          "text": "aloha",
+          "created": "2016-12-16T16:06:19.563Z",
+          "updated": "2016-12-16T16:06:19.563Z"
+        },
+        {
+          "text": "bonjour",
+          "created": "2016-12-16T16:06:19.563Z",
+          "updated": "2016-12-16T16:06:19.563Z"
+        },
+        {
+          "text": "buenos dias",
+          "created": "2016-12-16T16:06:19.563Z",
+          "updated": "2016-12-16T16:06:19.563Z"
+        },
+        {
+          "text": "ciao",
+          "created": "2016-12-16T16:06:19.563Z",
+          "updated": "2016-12-16T16:06:19.563Z"
+        },
+        {
+          "text": "g'day",
+          "created": "2016-12-16T16:06:19.563Z",
+          "updated": "2016-12-16T16:06:19.563Z"
+        },
+        {
+          "text": "good afternoon",
+          "created": "2016-12-16T16:06:19.563Z",
+          "updated": "2016-12-16T16:06:19.563Z"
+        },
+        {
+          "text": "good evening",
+          "created": "2016-12-16T16:06:19.563Z",
+          "updated": "2016-12-16T16:06:19.563Z"
+        },
+        {
+          "text": "good morning",
+          "created": "2016-12-16T16:06:19.563Z",
+          "updated": "2016-12-16T16:06:19.563Z"
+        },
+        {
+          "text": "greetings",
+          "created": "2016-12-16T16:06:19.563Z",
+          "updated": "2016-12-16T16:06:19.563Z"
+        },
+        {
+          "text": "Hello",
+          "created": "2016-12-16T16:06:19.563Z",
+          "updated": "2016-12-16T16:06:19.563Z"
+        },
+        {
+          "text": "Hello, how are you?",
+          "created": "2016-12-16T16:06:19.563Z",
+          "updated": "2016-12-16T16:06:19.563Z"
+        },
+        {
+          "text": "hey",
+          "created": "2016-12-16T16:06:19.563Z",
+          "updated": "2016-12-16T16:06:19.563Z"
+        },
+        {
+          "text": "heya",
+          "created": "2016-12-16T16:06:19.563Z",
+          "updated": "2016-12-16T16:06:19.563Z"
+        },
+        {
+          "text": "hey there",
+          "created": "2016-12-16T16:06:19.563Z",
+          "updated": "2016-12-16T16:06:19.563Z"
+        },
+        {
+          "text": "hi",
+          "created": "2016-12-16T16:06:19.563Z",
+          "updated": "2016-12-16T16:06:19.563Z"
+        },
+        {
+          "text": "hi how are u",
+          "created": "2016-12-16T16:06:19.563Z",
+          "updated": "2016-12-16T16:06:19.563Z"
+        },
+        {
+          "text": "hi there",
+          "created": "2016-12-16T16:06:19.563Z",
+          "updated": "2016-12-16T16:06:19.563Z"
+        },
+        {
+          "text": "hiya",
+          "created": "2016-12-16T16:06:19.563Z",
+          "updated": "2016-12-16T16:06:19.563Z"
+        },
+        {
+          "text": "Hola",
+          "created": "2016-12-16T16:06:19.563Z",
+          "updated": "2016-12-16T16:06:19.563Z"
+        },
+        {
+          "text": "How are you doing?",
+          "created": "2016-12-16T16:06:19.563Z",
+          "updated": "2016-12-16T16:06:19.563Z"
+        },
+        {
+          "text": "howdy",
+          "created": "2016-12-16T16:06:19.563Z",
+          "updated": "2016-12-16T16:06:19.563Z"
+        },
+        {
+          "text": "morning",
+          "created": "2016-12-16T16:06:19.563Z",
+          "updated": "2016-12-16T16:06:19.563Z"
+        },
+        {
+          "text": "sup",
+          "created": "2016-12-16T16:06:19.563Z",
+          "updated": "2016-12-16T16:06:19.563Z"
+        },
+        {
+          "text": "yo",
+          "created": "2016-12-16T16:06:19.563Z",
+          "updated": "2016-12-16T16:06:19.563Z"
+        }
+      ],
+      "description": null
+    },
+    {
+      "intent": "cs-help",
+      "created": "2016-12-16T16:06:19.563Z",
+      "updated": "2016-12-16T16:06:19.563Z",
+      "examples": [
+        {
+          "text": "help",
+          "created": "2016-12-16T16:06:19.563Z",
+          "updated": "2016-12-16T16:06:19.563Z"
+        },
+        {
+          "text": "help me",
+          "created": "2016-12-16T16:06:19.563Z",
+          "updated": "2016-12-16T16:06:19.563Z"
+        },
+        {
+          "text": "hep me out",
+          "created": "2016-12-16T16:06:19.563Z",
+          "updated": "2016-12-16T16:06:19.563Z"
+        },
+        {
+          "text": "How are you going to help me?",
+          "created": "2016-12-16T16:06:19.563Z",
+          "updated": "2016-12-16T16:06:19.563Z"
+        },
+        {
+          "text": "how can you help me",
+          "created": "2016-12-16T16:06:19.563Z",
+          "updated": "2016-12-16T16:06:19.563Z"
+        },
+        {
+          "text": "need help",
+          "created": "2016-12-16T16:06:19.563Z",
+          "updated": "2016-12-16T16:06:19.563Z"
+        },
+        {
+          "text": "tell me what things you can do",
+          "created": "2016-12-16T16:06:19.563Z",
+          "updated": "2016-12-16T16:06:19.563Z"
+        },
+        {
+          "text": "tell me what you can do",
+          "created": "2016-12-16T16:06:19.563Z",
+          "updated": "2016-12-16T16:06:19.563Z"
+        },
+        {
+          "text": "wat",
+          "created": "2016-12-16T16:06:19.563Z",
+          "updated": "2016-12-16T16:06:19.563Z"
+        },
+        {
+          "text": "What are you",
+          "created": "2016-12-16T16:06:19.563Z",
+          "updated": "2016-12-16T16:06:19.563Z"
+        },
+        {
+          "text": "what are you capable of",
+          "created": "2016-12-16T16:06:19.563Z",
+          "updated": "2016-12-16T16:06:19.563Z"
+        },
+        {
+          "text": "what are your capabilities Watson?",
+          "created": "2016-12-16T16:06:19.563Z",
+          "updated": "2016-12-16T16:06:19.563Z"
+        },
+        {
+          "text": "what can I do",
+          "created": "2016-12-16T16:06:19.563Z",
+          "updated": "2016-12-16T16:06:19.563Z"
+        },
+        {
+          "text": "What can i say",
+          "created": "2016-12-16T16:06:19.563Z",
+          "updated": "2016-12-16T16:06:19.563Z"
+        },
+        {
+          "text": "what can you do",
+          "created": "2016-12-16T16:06:19.563Z",
+          "updated": "2016-12-16T16:06:19.563Z"
+        },
+        {
+          "text": "what can you do for me",
+          "created": "2016-12-16T16:06:19.563Z",
+          "updated": "2016-12-16T16:06:19.563Z"
+        },
+        {
+          "text": "what can you help me with",
+          "created": "2016-12-16T16:06:19.563Z",
+          "updated": "2016-12-16T16:06:19.563Z"
+        },
+        {
+          "text": "what do you know",
+          "created": "2016-12-16T16:06:19.563Z",
+          "updated": "2016-12-16T16:06:19.563Z"
+        },
+        {
+          "text": "what things can you do",
+          "created": "2016-12-16T16:06:19.563Z",
+          "updated": "2016-12-16T16:06:19.563Z"
+        }
+      ],
+      "description": null
+    },
+    {
+      "intent": "cs-no",
+      "created": "2016-12-16T16:06:19.563Z",
+      "updated": "2016-12-16T16:06:19.563Z",
+      "examples": [
+        {
+          "text": "definitely not",
+          "created": "2016-12-16T16:06:19.563Z",
+          "updated": "2016-12-16T16:06:19.563Z"
+        },
+        {
+          "text": "never",
+          "created": "2016-12-16T16:06:19.563Z",
+          "updated": "2016-12-16T16:06:19.563Z"
+        },
+        {
+          "text": "no",
+          "created": "2016-12-16T16:06:19.563Z",
+          "updated": "2016-12-16T16:06:19.563Z"
+        },
+        {
+          "text": "no no no",
+          "created": "2016-12-16T16:06:19.563Z",
+          "updated": "2016-12-16T16:06:19.563Z"
+        },
+        {
+          "text": "no not at all",
+          "created": "2016-12-16T16:06:19.563Z",
+          "updated": "2016-12-16T16:06:19.563Z"
+        },
+        {
+          "text": "no not really",
+          "created": "2016-12-16T16:06:19.563Z",
+          "updated": "2016-12-16T16:06:19.563Z"
+        },
+        {
+          "text": "no thanks",
+          "created": "2016-12-16T16:06:19.563Z",
+          "updated": "2016-12-16T16:06:19.563Z"
+        },
+        {
+          "text": "no thank you",
+          "created": "2016-12-16T16:06:19.563Z",
+          "updated": "2016-12-16T16:06:19.563Z"
+        },
+        {
+          "text": "not likely",
+          "created": "2016-12-16T16:06:19.563Z",
+          "updated": "2016-12-16T16:06:19.563Z"
+        },
+        {
+          "text": "no way",
+          "created": "2016-12-16T16:06:19.563Z",
+          "updated": "2016-12-16T16:06:19.563Z"
+        },
+        {
+          "text": "of course not",
+          "created": "2016-12-16T16:06:19.563Z",
+          "updated": "2016-12-16T16:06:19.563Z"
+        },
+        {
+          "text": "you must be kidding!",
+          "created": "2016-12-16T16:06:19.563Z",
+          "updated": "2016-12-16T16:06:19.563Z"
+        }
+      ],
+      "description": null
+    },
+    {
+      "intent": "cs-tell-me",
+      "created": "2016-12-16T16:06:19.563Z",
+      "updated": "2016-12-16T16:06:19.563Z",
+      "examples": [
+        {
+          "text": "can you give me",
+          "created": "2016-12-16T16:06:19.563Z",
+          "updated": "2016-12-16T16:06:19.563Z"
+        },
+        {
+          "text": "can you inform me",
+          "created": "2016-12-16T16:06:19.563Z",
+          "updated": "2016-12-16T16:06:19.563Z"
+        },
+        {
+          "text": "can you show me",
+          "created": "2016-12-16T16:06:19.563Z",
+          "updated": "2016-12-16T16:06:19.563Z"
+        },
+        {
+          "text": "can you tell me",
+          "created": "2016-12-16T16:06:19.563Z",
+          "updated": "2016-12-16T16:06:19.563Z"
+        },
+        {
+          "text": "give me",
+          "created": "2016-12-16T16:06:19.563Z",
+          "updated": "2016-12-16T16:06:19.563Z"
+        },
+        {
+          "text": "inform me",
+          "created": "2016-12-16T16:06:19.563Z",
+          "updated": "2016-12-16T16:06:19.563Z"
+        },
+        {
+          "text": "show me",
+          "created": "2016-12-16T16:06:19.563Z",
+          "updated": "2016-12-16T16:06:19.563Z"
+        },
+        {
+          "text": "tell me",
+          "created": "2016-12-16T16:06:19.563Z",
+          "updated": "2016-12-16T16:06:19.563Z"
+        },
+        {
+          "text": "what are the",
+          "created": "2016-12-16T16:06:19.563Z",
+          "updated": "2016-12-16T16:06:19.563Z"
+        },
+        {
+          "text": "will you give me",
+          "created": "2016-12-16T16:06:19.563Z",
+          "updated": "2016-12-16T16:06:19.563Z"
+        },
+        {
+          "text": "will you inform me",
+          "created": "2016-12-16T16:06:19.563Z",
+          "updated": "2016-12-16T16:06:19.563Z"
+        },
+        {
+          "text": "will you show me",
+          "created": "2016-12-16T16:06:19.563Z",
+          "updated": "2016-12-16T16:06:19.563Z"
+        },
+        {
+          "text": "will you tell me",
+          "created": "2016-12-16T16:06:19.563Z",
+          "updated": "2016-12-16T16:06:19.563Z"
+        }
+      ],
+      "description": null
+    },
+    {
+      "intent": "cs-thankyou",
+      "created": "2016-12-16T16:06:19.563Z",
+      "updated": "2016-12-16T16:06:19.563Z",
+      "examples": [
+        {
+          "text": "cheers",
+          "created": "2016-12-16T16:06:19.563Z",
+          "updated": "2016-12-16T16:06:19.563Z"
+        },
+        {
+          "text": "kthx",
+          "created": "2016-12-16T16:06:19.563Z",
+          "updated": "2016-12-16T16:06:19.563Z"
+        },
+        {
+          "text": "much obliged",
+          "created": "2016-12-16T16:06:19.563Z",
+          "updated": "2016-12-16T16:06:19.563Z"
+        },
+        {
+          "text": "ta",
+          "created": "2016-12-16T16:06:19.563Z",
+          "updated": "2016-12-16T16:06:19.563Z"
+        },
+        {
+          "text": "ta very much",
+          "created": "2016-12-16T16:06:19.563Z",
+          "updated": "2016-12-16T16:06:19.563Z"
+        },
+        {
+          "text": "thanks",
+          "created": "2016-12-16T16:06:19.563Z",
+          "updated": "2016-12-16T16:06:19.563Z"
+        },
+        {
+          "text": "thanks a lot",
+          "created": "2016-12-16T16:06:19.563Z",
+          "updated": "2016-12-16T16:06:19.563Z"
+        },
+        {
+          "text": "thankyou",
+          "created": "2016-12-16T16:06:19.563Z",
+          "updated": "2016-12-16T16:06:19.563Z"
+        },
+        {
+          "text": "thank you",
+          "created": "2016-12-16T16:06:19.563Z",
+          "updated": "2016-12-16T16:06:19.563Z"
+        },
+        {
+          "text": "that's great, thanks",
+          "created": "2016-12-16T16:06:19.563Z",
+          "updated": "2016-12-16T16:06:19.563Z"
+        },
+        {
+          "text": "thx",
+          "created": "2016-12-16T16:06:19.563Z",
+          "updated": "2016-12-16T16:06:19.563Z"
+        }
+      ],
+      "description": null
+    },
+    {
+      "intent": "cs-yes",
+      "created": "2016-12-16T16:06:19.563Z",
+      "updated": "2016-12-28T00:47:07.691Z",
+      "examples": [
+        {
+          "text": "absolutely",
+          "created": "2016-12-16T16:06:19.563Z",
+          "updated": "2016-12-16T16:06:19.563Z"
+        },
+        {
+          "text": "agreed",
+          "created": "2016-12-16T16:06:19.563Z",
+          "updated": "2016-12-16T16:06:19.563Z"
+        },
+        {
+          "text": "correct",
+          "created": "2016-12-16T16:06:19.563Z",
+          "updated": "2016-12-16T16:06:19.563Z"
+        },
+        {
+          "text": "definitely",
+          "created": "2016-12-16T16:06:19.563Z",
+          "updated": "2016-12-16T16:06:19.563Z"
+        },
+        {
+          "text": "for sure",
+          "created": "2016-12-16T16:06:19.563Z",
+          "updated": "2016-12-16T16:06:19.563Z"
+        },
+        {
+          "text": "fo sho",
+          "created": "2016-12-28T00:47:07.691Z",
+          "updated": "2016-12-28T00:47:07.691Z"
+        },
+        {
+          "text": "I agree",
+          "created": "2016-12-16T16:06:19.563Z",
+          "updated": "2016-12-16T16:06:19.563Z"
+        },
+        {
+          "text": "no problem",
+          "created": "2016-12-16T16:06:19.563Z",
+          "updated": "2016-12-16T16:06:19.563Z"
+        },
+        {
+          "text": "ok",
+          "created": "2016-12-16T16:06:19.563Z",
+          "updated": "2016-12-16T16:06:19.563Z"
+        },
+        {
+          "text": "okay",
+          "created": "2016-12-16T16:06:19.563Z",
+          "updated": "2016-12-16T16:06:19.563Z"
+        },
+        {
+          "text": "right",
+          "created": "2016-12-16T16:06:19.563Z",
+          "updated": "2016-12-16T16:06:19.563Z"
+        },
+        {
+          "text": "sure",
+          "created": "2016-12-16T16:06:19.563Z",
+          "updated": "2016-12-16T16:06:19.563Z"
+        },
+        {
+          "text": "sure thing",
+          "created": "2016-12-16T16:06:19.563Z",
+          "updated": "2016-12-16T16:06:19.563Z"
+        },
+        {
+          "text": "ye",
+          "created": "2016-12-28T00:40:09.187Z",
+          "updated": "2016-12-28T00:40:09.187Z"
+        },
+        {
+          "text": "yeah",
+          "created": "2016-12-16T16:06:19.563Z",
+          "updated": "2016-12-16T16:06:19.563Z"
+        },
+        {
+          "text": "yes",
+          "created": "2016-12-16T16:06:19.563Z",
+          "updated": "2016-12-16T16:06:19.563Z"
+        }
+      ],
+      "description": null
+    },
+    {
+      "intent": "editor",
+      "created": "2016-12-16T16:06:19.563Z",
+      "updated": "2016-12-16T16:06:19.563Z",
+      "examples": [
+        {
+          "text": "copy editor",
+          "created": "2016-12-16T16:06:19.563Z",
+          "updated": "2016-12-16T16:06:19.563Z"
+        },
+        {
+          "text": "copy holder",
+          "created": "2016-12-16T16:06:19.563Z",
+          "updated": "2016-12-16T16:06:19.563Z"
+        },
+        {
+          "text": "desk man",
+          "created": "2016-12-16T16:06:19.563Z",
+          "updated": "2016-12-16T16:06:19.563Z"
+        },
+        {
+          "text": "edit",
+          "created": "2016-12-16T16:06:19.563Z",
+          "updated": "2016-12-16T16:06:19.563Z"
+        },
+        {
+          "text": "editor",
+          "created": "2016-12-16T16:06:19.563Z",
+          "updated": "2016-12-16T16:06:19.563Z"
+        },
+        {
+          "text": "editor in chief",
+          "created": "2016-12-16T16:06:19.563Z",
+          "updated": "2016-12-16T16:06:19.563Z"
+        },
+        {
+          "text": "editor-in-chief",
+          "created": "2016-12-16T16:06:19.563Z",
+          "updated": "2016-12-16T16:06:19.563Z"
+        },
+        {
+          "text": "managing editor",
+          "created": "2016-12-16T16:06:19.563Z",
+          "updated": "2016-12-16T16:06:19.563Z"
+        },
+        {
+          "text": "rewriter",
+          "created": "2016-12-16T16:06:19.563Z",
+          "updated": "2016-12-16T16:06:19.563Z"
+        },
+        {
+          "text": "writing manager",
+          "created": "2016-12-16T16:06:19.563Z",
+          "updated": "2016-12-16T16:06:19.563Z"
+        }
+      ],
+      "description": null
+    },
+    {
+      "intent": "FUEL",
+      "created": "2016-12-16T16:06:19.563Z",
+      "updated": "2016-12-16T16:06:19.563Z",
+      "examples": [
+        {
+          "text": "Ah, ok. Can you help me with FUEL?",
+          "created": "2016-12-16T16:06:19.563Z",
+          "updated": "2016-12-16T16:06:19.563Z"
+        },
+        {
+          "text": "Blog Fuel",
+          "created": "2016-12-16T16:06:19.563Z",
+          "updated": "2016-12-16T16:06:19.563Z"
+        },
+        {
+          "text": "FUEL",
+          "created": "2016-12-16T16:06:19.563Z",
+          "updated": "2016-12-16T16:06:19.563Z"
+        },
+        {
+          "text": "fuel help",
+          "created": "2016-12-16T16:06:19.563Z",
+          "updated": "2016-12-16T16:06:19.563Z"
+        },
+        {
+          "text": "help me with fuel",
+          "created": "2016-12-16T16:06:19.563Z",
+          "updated": "2016-12-16T16:06:19.563Z"
+        },
+        {
+          "text": "the writing platform",
+          "created": "2016-12-16T16:06:19.563Z",
+          "updated": "2016-12-16T16:06:19.563Z"
+        },
+        {
+          "text": "writer automation system",
+          "created": "2016-12-16T16:06:19.563Z",
+          "updated": "2016-12-16T16:06:19.563Z"
+        },
+        {
+          "text": "writer fuel",
+          "created": "2016-12-16T16:06:19.563Z",
+          "updated": "2016-12-16T16:06:19.563Z"
+        },
+        {
+          "text": "writing on fuel",
+          "created": "2016-12-16T16:06:19.563Z",
+          "updated": "2016-12-16T16:06:19.563Z"
+        }
+      ],
+      "description": null
+    },
+    {
+      "intent": "Oopsie-Nevermind",
+      "created": "2016-12-16T16:06:19.563Z",
+      "updated": "2016-12-16T16:06:19.563Z",
+      "examples": [
+        {
+          "text": "nevermind",
+          "created": "2016-12-16T16:06:19.563Z",
+          "updated": "2016-12-16T16:06:19.563Z"
+        },
+        {
+          "text": "nothing",
+          "created": "2016-12-16T16:06:19.563Z",
+          "updated": "2016-12-16T16:06:19.563Z"
+        },
+        {
+          "text": "nvm",
+          "created": "2016-12-16T16:06:19.563Z",
+          "updated": "2016-12-16T16:06:19.563Z"
+        },
+        {
+          "text": "oops",
+          "created": "2016-12-16T16:06:19.563Z",
+          "updated": "2016-12-16T16:06:19.563Z"
+        },
+        {
+          "text": "sorry",
+          "created": "2016-12-16T16:06:19.563Z",
+          "updated": "2016-12-16T16:06:19.563Z"
+        }
+      ],
+      "description": null
+    },
+    {
+      "intent": "publisher",
+      "created": "2016-12-16T16:06:19.563Z",
+      "updated": "2016-12-16T16:06:19.563Z",
+      "examples": [
+        {
+          "text": "account owner",
+          "created": "2016-12-16T16:06:19.563Z",
+          "updated": "2016-12-16T16:06:19.563Z"
+        },
+        {
+          "text": "client",
+          "created": "2016-12-16T16:06:19.563Z",
+          "updated": "2016-12-16T16:06:19.563Z"
+        },
+        {
+          "text": "fuel client",
+          "created": "2016-12-16T16:06:19.563Z",
+          "updated": "2016-12-16T16:06:19.563Z"
+        },
+        {
+          "text": "fuel publisher",
+          "created": "2016-12-16T16:06:19.563Z",
+          "updated": "2016-12-16T16:06:19.563Z"
+        },
+        {
+          "text": "fuel subscriber",
+          "created": "2016-12-16T16:06:19.563Z",
+          "updated": "2016-12-16T16:06:19.563Z"
+        },
+        {
+          "text": "publisher",
+          "created": "2016-12-16T16:06:19.563Z",
+          "updated": "2016-12-16T16:06:19.563Z"
+        }
+      ],
+      "description": null
+    },
+    {
+      "intent": "schedule-meeting",
+      "created": "2016-12-23T17:32:58.061Z",
+      "updated": "2016-12-27T23:33:13.349Z",
+      "examples": [
+        {
+          "text": "book a conference",
+          "created": "2016-12-27T18:11:46.781Z",
+          "updated": "2016-12-27T18:11:46.781Z"
+        },
+        {
+          "text": "book a hangout",
+          "created": "2016-12-27T18:11:50.324Z",
+          "updated": "2016-12-27T18:11:50.324Z"
+        },
+        {
+          "text": "book a meeting",
+          "created": "2016-12-27T18:11:41.791Z",
+          "updated": "2016-12-27T18:11:41.791Z"
+        },
+        {
+          "text": "book an appointment",
+          "created": "2016-12-27T18:11:55.802Z",
+          "updated": "2016-12-27T18:11:55.802Z"
+        },
+        {
+          "text": "get a conference on the books",
+          "created": "2016-12-27T18:12:15.742Z",
+          "updated": "2016-12-27T18:12:15.742Z"
+        },
+        {
+          "text": "get a meeting on the books",
+          "created": "2016-12-27T18:12:20.938Z",
+          "updated": "2016-12-27T18:12:20.938Z"
+        },
+        {
+          "text": "get an appointment on the books",
+          "created": "2016-12-27T18:12:07.694Z",
+          "updated": "2016-12-27T18:12:07.694Z"
+        },
+        {
+          "text": "schedule a conference",
+          "created": "2016-12-23T17:32:58.061Z",
+          "updated": "2016-12-23T17:32:58.061Z"
+        },
+        {
+          "text": "schedule a meeting",
+          "created": "2016-12-23T17:32:58.061Z",
+          "updated": "2016-12-23T17:32:58.061Z"
+        },
+        {
+          "text": "schedule an appointment",
+          "created": "2016-12-23T17:32:58.061Z",
+          "updated": "2016-12-23T17:32:58.061Z"
+        },
+        {
+          "text": "set a meeting",
+          "created": "2016-12-23T17:32:58.061Z",
+          "updated": "2016-12-23T17:32:58.061Z"
+        },
+        {
+          "text": "set an appointment",
+          "created": "2016-12-23T17:32:58.061Z",
+          "updated": "2016-12-23T17:32:58.061Z"
+        },
+        {
+          "text": "setup a conference",
+          "created": "2016-12-27T23:33:09.167Z",
+          "updated": "2016-12-27T23:33:09.167Z"
+        },
+        {
+          "text": "setup a meeting",
+          "created": "2016-12-27T23:33:03.908Z",
+          "updated": "2016-12-27T23:33:03.908Z"
+        },
+        {
+          "text": "setup an appointment",
+          "created": "2016-12-27T23:33:13.349Z",
+          "updated": "2016-12-27T23:33:13.349Z"
+        }
+      ],
+      "description": null
+    },
+    {
+      "intent": "writer",
+      "created": "2016-12-16T16:06:19.563Z",
+      "updated": "2016-12-16T16:06:19.563Z",
+      "examples": [
+        {
+          "text": "author",
+          "created": "2016-12-16T16:06:19.563Z",
+          "updated": "2016-12-16T16:06:19.563Z"
+        },
+        {
+          "text": "blogger",
+          "created": "2016-12-16T16:06:19.563Z",
+          "updated": "2016-12-16T16:06:19.563Z"
+        },
+        {
+          "text": "editorialist",
+          "created": "2016-12-16T16:06:19.563Z",
+          "updated": "2016-12-16T16:06:19.563Z"
+        },
+        {
+          "text": "ghost writer",
+          "created": "2016-12-16T16:06:19.563Z",
+          "updated": "2016-12-16T16:06:19.563Z"
+        },
+        {
+          "text": "writer",
+          "created": "2016-12-16T16:06:19.563Z",
+          "updated": "2016-12-16T16:06:19.563Z"
+        }
+      ],
+      "description": null
+    }
+  ],
+  "updated": "2016-12-28T01:22:37.404Z",
+  "entities": [
+    {
+      "type": null,
+      "entity": "bot-salutations",
+      "source": null,
+      "values": [
+        {
+          "value": "Amy Ingram",
+          "created": "2016-12-20T22:27:05.653Z",
+          "updated": "2016-12-20T22:27:05.653Z",
+          "metadata": null,
+          "synonyms": [
+            "amy",
+            "amybot",
+            "amy-bot",
+            "amy ingram",
+            "ingram"
+          ]
+        },
+        {
+          "value": "Roger Wilco",
+          "created": "2016-12-16T16:06:19.563Z",
+          "updated": "2016-12-16T16:06:19.563Z",
+          "metadata": null,
+          "synonyms": [
+            "rog",
+            "rog-bot",
+            "roger",
+            "rogerbot",
+            "roger wilco",
+            "wilco",
+            "wilcobot",
+            "wilco-bot"
+          ]
+        }
+      ],
+      "created": "2016-12-16T16:06:19.563Z",
+      "updated": "2016-12-16T16:06:19.563Z",
+      "open_list": false,
+      "description": null
+    },
+    {
+      "type": null,
+      "entity": "client-names",
+      "source": null,
+      "values": [
+        {
+          "value": "Andrew",
+          "created": "2016-12-23T17:36:00.862Z",
+          "updated": "2016-12-23T17:36:15.544Z",
+          "metadata": null,
+          "synonyms": [
+            "Andrew",
+            "Andrew Lowe",
+            "Lowe"
+          ]
+        },
+        {
+          "value": "Art",
+          "created": "2016-12-23T17:36:00.862Z",
+          "updated": "2016-12-23T17:36:37.604Z",
+          "metadata": null,
+          "synonyms": [
+            "Art",
+            "Arthur",
+            "Arthur Lindsey",
+            "Art Lindsay",
+            "Art Lindsey",
+            "Art Lindsey III"
+          ]
+        },
+        {
+          "value": "Mark",
+          "created": "2016-12-23T17:36:00.862Z",
+          "updated": "2016-12-23T17:36:00.862Z",
+          "metadata": null,
+          "synonyms": [
+            "doctor",
+            "doctor bitcoin",
+            "mark",
+            "mark hopkins",
+            "mark rizzn hopkins",
+            "mister bitcoin",
+            "mister rizzn",
+            "rizzn"
+          ]
+        },
+        {
+          "value": "Mick",
+          "created": "2016-12-23T17:36:00.862Z",
+          "updated": "2016-12-23T17:37:08.709Z",
+          "metadata": null,
+          "synonyms": [
+            "Michael",
+            "Michael Jones",
+            "Mick",
+            "Mick Jones"
+          ]
+        }
+      ],
+      "created": "2016-12-23T17:36:00.862Z",
+      "updated": "2016-12-23T17:36:00.862Z",
+      "open_list": false,
+      "description": null
+    },
+    {
+      "type": null,
+      "entity": "cs-day",
+      "source": null,
+      "values": [
+        {
+          "value": "today",
+          "created": "2016-12-16T16:06:19.563Z",
+          "updated": "2016-12-16T16:06:19.563Z",
+          "metadata": null,
+          "synonyms": []
+        },
+        {
+          "value": "tomorrow",
+          "created": "2016-12-16T16:06:19.563Z",
+          "updated": "2016-12-16T16:06:19.563Z",
+          "metadata": null,
+          "synonyms": []
+        },
+        {
+          "value": "yesterday",
+          "created": "2016-12-16T16:06:19.563Z",
+          "updated": "2016-12-16T16:06:19.563Z",
+          "metadata": null,
+          "synonyms": []
+        }
+      ],
+      "created": "2016-12-16T16:06:19.563Z",
+      "updated": "2016-12-16T16:06:19.563Z",
+      "open_list": null,
+      "description": null
+    },
+    {
+      "type": null,
+      "entity": "cs-month",
+      "source": null,
+      "values": [
+        {
+          "value": "April",
+          "created": "2016-12-16T16:06:19.563Z",
+          "updated": "2016-12-16T16:06:19.563Z",
+          "metadata": null,
+          "synonyms": [
+            "Apr"
+          ]
+        },
+        {
+          "value": "August",
+          "created": "2016-12-16T16:06:19.563Z",
+          "updated": "2016-12-16T16:06:19.563Z",
+          "metadata": null,
+          "synonyms": [
+            "Aug"
+          ]
+        },
+        {
+          "value": "December",
+          "created": "2016-12-16T16:06:19.563Z",
+          "updated": "2016-12-16T16:06:19.563Z",
+          "metadata": null,
+          "synonyms": [
+            "Dec"
+          ]
+        },
+        {
+          "value": "February",
+          "created": "2016-12-16T16:06:19.563Z",
+          "updated": "2016-12-16T16:06:19.563Z",
+          "metadata": null,
+          "synonyms": [
+            "Feb"
+          ]
+        },
+        {
+          "value": "January",
+          "created": "2016-12-16T16:06:19.563Z",
+          "updated": "2016-12-16T16:06:19.563Z",
+          "metadata": null,
+          "synonyms": [
+            "Jan"
+          ]
+        },
+        {
+          "value": "July",
+          "created": "2016-12-16T16:06:19.563Z",
+          "updated": "2016-12-16T16:06:19.563Z",
+          "metadata": null,
+          "synonyms": [
+            "Jul"
+          ]
+        },
+        {
+          "value": "June",
+          "created": "2016-12-16T16:06:19.563Z",
+          "updated": "2016-12-16T16:06:19.563Z",
+          "metadata": null,
+          "synonyms": [
+            "Jun"
+          ]
+        },
+        {
+          "value": "March",
+          "created": "2016-12-16T16:06:19.563Z",
+          "updated": "2016-12-16T16:06:19.563Z",
+          "metadata": null,
+          "synonyms": [
+            "Mar"
+          ]
+        },
+        {
+          "value": "May",
+          "created": "2016-12-16T16:06:19.563Z",
+          "updated": "2016-12-16T16:06:19.563Z",
+          "metadata": null,
+          "synonyms": []
+        },
+        {
+          "value": "November",
+          "created": "2016-12-16T16:06:19.563Z",
+          "updated": "2016-12-16T16:06:19.563Z",
+          "metadata": null,
+          "synonyms": [
+            "Nov"
+          ]
+        },
+        {
+          "value": "October",
+          "created": "2016-12-16T16:06:19.563Z",
+          "updated": "2016-12-16T16:06:19.563Z",
+          "metadata": null,
+          "synonyms": [
+            "Oct"
+          ]
+        },
+        {
+          "value": "September",
+          "created": "2016-12-16T16:06:19.563Z",
+          "updated": "2016-12-16T16:06:19.563Z",
+          "metadata": null,
+          "synonyms": [
+            "Sept"
+          ]
+        }
+      ],
+      "created": "2016-12-16T16:06:19.563Z",
+      "updated": "2016-12-16T16:06:19.563Z",
+      "open_list": null,
+      "description": null
+    },
+    {
+      "type": null,
+      "entity": "cs-weekday",
+      "source": null,
+      "values": [
+        {
+          "value": "Friday",
+          "created": "2016-12-16T16:06:19.563Z",
+          "updated": "2016-12-16T16:06:19.563Z",
+          "metadata": null,
+          "synonyms": [
+            "Fri"
+          ]
+        },
+        {
+          "value": "Monday",
+          "created": "2016-12-16T16:06:19.563Z",
+          "updated": "2016-12-16T16:06:19.563Z",
+          "metadata": null,
+          "synonyms": [
+            "Mon"
+          ]
+        },
+        {
+          "value": "Saturday",
+          "created": "2016-12-16T16:06:19.563Z",
+          "updated": "2016-12-16T16:06:19.563Z",
+          "metadata": null,
+          "synonyms": [
+            "Sat"
+          ]
+        },
+        {
+          "value": "Sunday",
+          "created": "2016-12-16T16:06:19.563Z",
+          "updated": "2016-12-16T16:06:19.563Z",
+          "metadata": null,
+          "synonyms": [
+            "Sun"
+          ]
+        },
+        {
+          "value": "Thursday",
+          "created": "2016-12-16T16:06:19.563Z",
+          "updated": "2016-12-16T16:06:19.563Z",
+          "metadata": null,
+          "synonyms": [
+            "Thur",
+            "Thurs"
+          ]
+        },
+        {
+          "value": "Tuesday",
+          "created": "2016-12-16T16:06:19.563Z",
+          "updated": "2016-12-16T16:06:19.563Z",
+          "metadata": null,
+          "synonyms": [
+            "Tue",
+            "Tues"
+          ]
+        },
+        {
+          "value": "Wednesday",
+          "created": "2016-12-16T16:06:19.563Z",
+          "updated": "2016-12-16T16:06:19.563Z",
+          "metadata": null,
+          "synonyms": [
+            "Wed"
+          ]
+        }
+      ],
+      "created": "2016-12-16T16:06:19.563Z",
+      "updated": "2016-12-16T16:06:19.563Z",
+      "open_list": null,
+      "description": null
+    },
+    {
+      "type": null,
+      "entity": "email-address",
+      "source": null,
+      "values": [
+        {
+          "value": "'[a-zA-Z0-9._%+-]+@[a-zA-Z0-9.-]+(\\\\.[a-zA-Z]+){1,}'",
+          "created": "2016-12-28T00:41:27.683Z",
+          "updated": "2016-12-28T00:41:27.683Z",
+          "metadata": null,
+          "synonyms": []
+        }
+      ],
+      "created": "2016-12-28T00:41:27.683Z",
+      "updated": "2016-12-28T00:41:27.683Z",
+      "open_list": false,
+      "description": null
+    },
+    {
+      "type": null,
+      "entity": "stories",
+      "source": null,
+      "values": [
+        {
+          "value": "stories to be edited",
+          "created": "2016-12-16T16:06:19.563Z",
+          "updated": "2016-12-16T16:06:19.563Z",
+          "metadata": null,
+          "synonyms": [
+            "blog posts for editing",
+            "blog posts to be edited",
+            "jobs for editing",
+            "jobs for review",
+            "jobs to be edited",
+            "posts for editing",
+            "posts to be edited",
+            "stories for editing",
+            "stories for review"
+          ]
+        },
+        {
+          "value": "stories to be written",
+          "created": "2016-12-16T16:06:19.563Z",
+          "updated": "2016-12-16T16:06:19.563Z",
+          "metadata": null,
+          "synonyms": [
+            "blog posts to write",
+            "jobs in queue",
+            "jobs to be written",
+            "jobs to write",
+            "posts in queue",
+            "posts to be written",
+            "stories for writing",
+            "stories in queue",
+            "stories to be written",
+            "stories to write"
+          ]
+        }
+      ],
+      "created": "2016-12-16T16:06:19.563Z",
+      "updated": "2016-12-16T16:06:19.563Z",
+      "open_list": false,
+      "description": null
+    },
+    {
+      "type": null,
+      "entity": "sys-currency",
+      "source": "system.entities",
+      "values": [],
+      "created": "2016-12-16T16:06:19.563Z",
+      "updated": "2016-12-16T16:06:19.563Z",
+      "open_list": false,
+      "description": null
+    }
+  ],
+  "language": "en",
+  "metadata": {
+    "runtime_version": "2016-09-20"
+  },
+  "description": "This is a bot that interfaces between Slack and Amy Ingram (of x.ai) specifically for Mark Hopkins, but soon others on RW team.",
+  "dialog_nodes": [
+    {
+      "go_to": null,
+      "output": {},
+      "parent": null,
+      "context": null,
+      "created": "2016-12-16T16:06:19.563Z",
+      "updated": "2016-12-27T19:23:25.154Z",
+      "metadata": null,
+      "conditions": "#cs-hello && @bot-salutations:(Amy Ingram)",
+      "description": null,
+      "dialog_node": "Amy Wake-up / Direct to action",
+      "previous_sibling": null
+    },
+    {
+      "go_to": null,
+      "output": {
+        "text": "Deuce."
+      },
+      "parent": "Bug out.",
+      "context": null,
+      "created": "2016-12-16T16:06:19.563Z",
+      "updated": "2016-12-16T16:06:19.563Z",
+      "metadata": null,
+      "conditions": "#cs-goodbye",
+      "description": null,
+      "dialog_node": "node_13_1478574038527",
+      "previous_sibling": null
+    },
+    {
+      "go_to": null,
+      "output": {
+        "text": "Don't worry about it! Bye!"
+      },
+      "parent": "Amy Wake-up / Direct to action",
+      "context": null,
+      "created": "2016-12-16T16:06:19.563Z",
+      "updated": "2016-12-20T22:40:27.007Z",
+      "metadata": null,
+      "conditions": "#Oopsie-Nevermind",
+      "description": null,
+      "dialog_node": "End Conversation Abrupt",
+      "previous_sibling": "End Conversation"
+    },
+    {
+      "go_to": null,
+      "output": {
+        "text": "I'm sorry, I didn't quite understand what you meant. I'm happy to help you out if you can be more specific."
+      },
+      "parent": "Amy Wake-up / Direct to action",
+      "context": null,
+      "created": "2016-12-16T16:06:19.563Z",
+      "updated": "2016-12-28T00:03:27.466Z",
+      "metadata": null,
+      "conditions": "anything_else",
+      "description": null,
+      "dialog_node": "node_5_1478726874689",
+      "previous_sibling": "End Conversation Abrupt"
+    },
+    {
+      "go_to": null,
+      "output": {
+        "text": "OK, talk to you later, then."
+      },
+      "parent": "Amy Wake-up / Direct to action",
+      "context": null,
+      "created": "2016-12-16T16:06:19.563Z",
+      "updated": "2016-12-20T22:49:22.770Z",
+      "metadata": null,
+      "conditions": "#cs-goodbye",
+      "description": null,
+      "dialog_node": "End Conversation",
+      "previous_sibling": "Enter Scheduling Mode"
+    },
+    {
+      "go_to": null,
+      "output": {
+        "text": {
+          "values": [
+            "Alright! Will there be anyone else in this meeting?"
+          ],
+          "selection_policy": "sequential"
+        }
+      },
+      "parent": "Success / When",
+      "context": null,
+      "created": "2016-12-21T23:03:48.404Z",
+      "updated": "2016-12-27T23:18:58.728Z",
+      "metadata": null,
+      "conditions": "anything_else",
+      "description": null,
+      "dialog_node": "Success / Gather email",
+      "previous_sibling": null
+    },
+    {
+      "go_to": null,
+      "output": {
+        "text": {
+          "values": [
+            "Do you have their email address handy?"
+          ],
+          "selection_policy": "sequential"
+        }
+      },
+      "parent": "Success / Gather email",
+      "context": null,
+      "created": "2016-12-23T17:25:39.064Z",
+      "updated": "2016-12-27T23:19:39.559Z",
+      "metadata": null,
+      "conditions": "#cs-yes",
+      "description": null,
+      "dialog_node": "Yes, other participants",
+      "previous_sibling": null
+    },
+    {
+      "go_to": null,
+      "output": {
+        "text": {
+          "values": [
+            "Fantastic! Keep an eye out for an email from me with more details on meeting specifics. Have a great day!"
+          ],
+          "selection_policy": "sequential"
+        }
+      },
+      "parent": "Success / Gather email",
+      "context": null,
+      "created": "2016-12-23T17:26:07.193Z",
+      "updated": "2016-12-28T01:22:37.404Z",
+      "metadata": null,
+      "conditions": "#cs-no",
+      "description": null,
+      "dialog_node": "No, that's it.",
+      "previous_sibling": "Yes, other participants"
+    },
+    {
+      "go_to": null,
+      "output": {
+        "text": {
+          "values": [
+            "Great! Just give me their email address, then."
+          ],
+          "selection_policy": "sequential"
+        }
+      },
+      "parent": "Yes, other participants",
+      "context": null,
+      "created": "2016-12-27T23:19:44.766Z",
+      "updated": "2016-12-28T00:05:48.301Z",
+      "metadata": null,
+      "conditions": "#cs-yes",
+      "description": null,
+      "dialog_node": "node_1_1482880784254",
+      "previous_sibling": null
+    },
+    {
+      "go_to": null,
+      "output": {
+        "text": {
+          "values": [
+            "Very good! Can I help you in setting an appointment with Mark today?"
+          ],
+          "selection_policy": "sequential"
+        }
+      },
+      "parent": "Amy heard her name",
+      "context": null,
+      "created": "2016-12-16T16:06:19.563Z",
+      "updated": "2016-12-28T00:53:58.692Z",
+      "metadata": null,
+      "conditions": "#cs-yes",
+      "description": null,
+      "dialog_node": "Direct Amy to action",
+      "previous_sibling": null
+    },
+    {
+      "go_to": null,
+      "output": {
+        "text": {
+          "values": [
+            "Great! Now let's set a time. What's your ideal time and day to meet? Don't worry if you don't have an exact time, w",
+            "Wonderful! OK, let's get a general time and day to meet (think general, like a time of the week, less like \"five minutes to noon.\") Don't worry if you don't have an exact time, we can narrow down our options via email."
+          ],
+          "selection_policy": "sequential"
+        }
+      },
+      "parent": "Enter Scheduling Mode",
+      "context": null,
+      "created": "2016-12-27T19:20:53.637Z",
+      "updated": "2016-12-28T01:01:44.588Z",
+      "metadata": null,
+      "conditions": "anything_else",
+      "description": null,
+      "dialog_node": "node_9_1482866453147",
+      "previous_sibling": "Fail / Nevermind"
+    },
+    {
+      "go_to": null,
+      "output": {
+        "text": {
+          "values": [
+            "That's OK, just let me know when you're ready!",
+            "No worries, just let me know when you're ready."
+          ],
+          "selection_policy": "sequential"
+        }
+      },
+      "parent": "Enter Scheduling Mode",
+      "context": null,
+      "created": "2016-12-21T23:47:22.253Z",
+      "updated": "2016-12-21T23:47:59.237Z",
+      "metadata": null,
+      "conditions": "#Oopsie-Nevermind",
+      "description": null,
+      "dialog_node": "Fail / Nevermind",
+      "previous_sibling": "Fail / No Location Yet"
+    },
+    {
+      "go_to": null,
+      "output": {
+        "text": {
+          "values": [
+            "Great, thanks! Now, if you could just give me your email so I can send you the meeting details and follow up if I have any other questions?",
+            "Fantastico. Now, if you don't mind, could I get your email? I'm going to need it so that I can send meeting details and get in touch with you in case of any other questions I may have.",
+            "Perfect. One more thing: what's your email address? I need it so I can send you the invite as well as follow up with any scheduling details to square away."
+          ],
+          "selection_policy": "random"
+        }
+      },
+      "parent": "node_9_1482866453147",
+      "context": null,
+      "created": "2016-12-21T22:51:37.759Z",
+      "updated": "2016-12-27T23:18:22.970Z",
+      "metadata": null,
+      "conditions": "anything_else",
+      "description": null,
+      "dialog_node": "Success / When",
+      "previous_sibling": null
+    },
+    {
+      "go_to": null,
+      "output": {
+        "text": {
+          "values": [
+            "Let's get started. First, can you tell me where you'd like to meet (either a Google Hangout, conference call or at the office).",
+            "Perfect, let's begin.  Can you tell me where you'd like to meet (either a Google Hangout, conference call or at the office).",
+            "Alrighty! Let me know how you'd like to meet (i.e., Google Hangout, conference call, at the office, etc)."
+          ],
+          "selection_policy": "random"
+        }
+      },
+      "parent": "Amy Wake-up / Direct to action",
+      "context": null,
+      "created": "2016-12-20T22:39:44.211Z",
+      "updated": "2016-12-28T00:02:56.825Z",
+      "metadata": null,
+      "conditions": "#cs-yes",
+      "description": null,
+      "dialog_node": "Enter Scheduling Mode",
+      "previous_sibling": "node_1_1482866604323"
+    },
+    {
+      "go_to": null,
+      "output": {
+        "text": {
+          "append": false,
+          "values": [
+            "Ah, OK, no problem",
+            "Alrighty then.",
+            "No worries."
+          ],
+          "selection_policy": "random"
+        }
+      },
+      "parent": "Amy heard her name",
+      "context": null,
+      "created": "2016-12-16T16:06:19.563Z",
+      "updated": "2016-12-20T22:29:23.160Z",
+      "metadata": null,
+      "conditions": "#cs-no",
+      "description": null,
+      "dialog_node": "Bug out.",
+      "previous_sibling": "Direct Amy to action"
+    },
+    {
+      "go_to": null,
+      "output": {
+        "text": {
+          "append": false,
+          "values": [
+            "Yes, dear? Can I help you?",
+            "I thought I heard my name. Did you need me?",
+            "Did you need me?"
+          ],
+          "selection_policy": "random"
+        }
+      },
+      "parent": null,
+      "context": null,
+      "created": "2016-12-16T16:06:19.563Z",
+      "updated": "2016-12-28T00:48:24.984Z",
+      "metadata": null,
+      "conditions": "@bot-salutations:(Amy Ingram)",
+      "description": null,
+      "dialog_node": "Amy heard her name",
+      "previous_sibling": "Amy Wake-up / Direct to action"
+    },
+    {
+      "go_to": {
+        "return": null,
+        "selector": "body",
+        "dialog_node": "Bug out."
+      },
+      "output": {},
+      "parent": "Direct Amy to action",
+      "context": null,
+      "created": "2016-12-28T00:55:49.070Z",
+      "updated": "2016-12-28T00:56:51.734Z",
+      "metadata": null,
+      "conditions": "#cs-no",
+      "description": null,
+      "dialog_node": "node_2_1482886548601",
+      "previous_sibling": "node_1_1482886444181"
+    },
+    {
+      "go_to": {
+        "return": null,
+        "selector": "body",
+        "dialog_node": "Enter Scheduling Mode"
+      },
+      "output": {},
+      "parent": "Direct Amy to action",
+      "context": null,
+      "created": "2016-12-28T00:54:04.790Z",
+      "updated": "2016-12-28T00:55:33.821Z",
+      "metadata": null,
+      "conditions": "#cs-yes",
+      "description": null,
+      "dialog_node": "node_1_1482886444181",
+      "previous_sibling": null
+    },
+    {
+      "go_to": {
+        "return": null,
+        "selector": "body",
+        "dialog_node": "node_6_1478796961069"
+      },
+      "output": {},
+      "parent": "Direct Amy to action",
+      "context": null,
+      "created": "2016-12-28T00:57:35.006Z",
+      "updated": "2016-12-28T00:57:54.243Z",
+      "metadata": null,
+      "conditions": "anything_else",
+      "description": null,
+      "dialog_node": "node_3_1482886654552",
+      "previous_sibling": "node_2_1482886548601"
+    },
+    {
+      "go_to": {
+        "return": null,
+        "selector": "body",
+        "dialog_node": "Success / Gather email"
+      },
+      "output": {},
+      "parent": "Yes, other participants",
+      "context": null,
+      "created": "2016-12-27T23:51:21.311Z",
+      "updated": "2016-12-28T00:38:21.305Z",
+      "metadata": null,
+      "conditions": "#cs-no",
+      "description": null,
+      "dialog_node": "node_2_1482882680861",
+      "previous_sibling": "node_1_1482880784254"
+    },
+    {
+      "go_to": {
+        "return": null,
+        "selector": "body",
+        "dialog_node": "Success / Gather email"
+      },
+      "output": {
+        "text": {
+          "values": [
+            "I'm sorry, didn't quite catch that."
+          ],
+          "selection_policy": "sequential"
+        }
+      },
+      "parent": "Success / Gather email",
+      "context": null,
+      "created": "2016-12-28T01:18:54.543Z",
+      "updated": "2016-12-28T01:22:37.404Z",
+      "metadata": null,
+      "conditions": "anything_else",
+      "description": null,
+      "dialog_node": "node_15_1482887934054",
+      "previous_sibling": "No, that's it."
+    },
+    {
+      "go_to": {
+        "return": null,
+        "selector": "body",
+        "dialog_node": "Success / Gather email"
+      },
+      "output": {
+        "text": {
+          "values": [
+            "Thanks for that!"
+          ],
+          "selection_policy": "sequential"
+        }
+      },
+      "parent": "node_1_1482880784254",
+      "context": null,
+      "created": "2016-12-28T00:05:54.701Z",
+      "updated": "2016-12-28T00:06:43.127Z",
+      "metadata": null,
+      "conditions": "anything_else",
+      "description": null,
+      "dialog_node": "node_1_1482883554226",
+      "previous_sibling": null
+    },
+    {
+      "go_to": {
+        "return": null,
+        "selector": "body",
+        "dialog_node": "Yes, other participants"
+      },
+      "output": {
+        "text": {
+          "values": [
+            "I didn't quite catch that."
+          ],
+          "selection_policy": "sequential"
+        }
+      },
+      "parent": "Yes, other participants",
+      "context": null,
+      "created": "2016-12-28T01:18:36.162Z",
+      "updated": "2016-12-28T01:19:25.791Z",
+      "metadata": null,
+      "conditions": "anything_else",
+      "description": null,
+      "dialog_node": "node_14_1482887915720",
+      "previous_sibling": "node_2_1482882680861"
+    },
+    {
+      "go_to": {
+        "return": null,
+        "selector": "user_input",
+        "dialog_node": "Direct Amy to action"
+      },
+      "output": {
+        "text": "I'm sorry; I didn't understand that. Did you need me?"
+      },
+      "parent": "Amy heard her name",
+      "context": null,
+      "created": "2016-12-16T16:06:19.563Z",
+      "updated": "2016-12-27T22:57:00.466Z",
+      "metadata": null,
+      "conditions": "anything_else",
+      "description": null,
+      "dialog_node": "node_6_1478796961069",
+      "previous_sibling": "Bug out."
+    },
+    {
+      "go_to": {
+        "return": null,
+        "selector": "user_input",
+        "dialog_node": "Success / When"
+      },
+      "output": {
+        "text": {
+          "values": [
+            "That's fine. We can proceed without a location for now and I'll pick one that's appropriate for the group later on. Now let's set a time. What's your ideal time and day to meet? Don't worry if you don't have an exact time, we can narrow down our options via email.",
+            "That's fine. We can proceed without a location for now and I'll pick one that's appropriate for the group later on. Let's get a general time and day to meet (think general, like a time of the week, less like \"five minutes to noon.\") Don't worry if you don't have an exact time, we can narrow down our options via email."
+          ],
+          "selection_policy": "random"
+        }
+      },
+      "parent": "Enter Scheduling Mode",
+      "context": null,
+      "created": "2016-12-21T23:44:23.191Z",
+      "updated": "2016-12-28T01:02:05.887Z",
+      "metadata": null,
+      "conditions": "#cs-no",
+      "description": null,
+      "dialog_node": "Fail / No Location Yet",
+      "previous_sibling": null
+    },
+    {
+      "type": "response_condition",
+      "go_to": null,
+      "output": {
+        "text": {
+          "values": [
+            "That's OK. We can always add them to the meeting later via email when you have it."
+          ],
+          "selection_policy": "sequential"
+        }
+      },
+      "parent": "node_2_1482882680861",
+      "context": null,
+      "created": "2016-12-28T00:38:21.020Z",
+      "updated": "2016-12-28T00:38:41.173Z",
+      "metadata": null,
+      "conditions": "",
+      "description": null,
+      "dialog_node": "node_7_1482885500547",
+      "previous_sibling": null
+    },
+    {
+      "type": "response_condition",
+      "go_to": null,
+      "output": {
+        "text": {
+          "append": false,
+          "values": [
+            "Hello! Do you need to set an appointment today?",
+            "Hi there! Can I get help you get an appointment set today?",
+            "Hallo! Can I assist you in setting a meeting today?"
+          ],
+          "selection_policy": "random"
+        }
+      },
+      "parent": "Amy Wake-up / Direct to action",
+      "context": null,
+      "created": "2016-12-27T19:23:24.843Z",
+      "updated": "2016-12-28T00:46:42.047Z",
+      "metadata": null,
+      "conditions": " @bot-salutations:(Amy Ingram)",
+      "description": null,
+      "dialog_node": "node_1_1482866604323",
+      "previous_sibling": null
+    }
+  ],
+  "workspace_id": "06b4c2e5-281f-46ca-a07e-30745d3240b1",
+  "counterexamples": []
+}
