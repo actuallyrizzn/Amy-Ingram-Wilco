@@ -1,232 +1,212 @@
 [
-  {
-    "id": "dff7750b.90bc68",
-    "type": "tab",
-    "label": "Amy Ingram on Slack"
-  },
-  {
-    "id": "2e07ce7b.059c12",
-    "type": "mqtt-broker",
-    "broker": "localhost",
-    "port": "1883",
-    "clientid": ""
-  },
-  {
-    "id": "b2fa5f48.18814",
-    "type": "mqtt-broker",
-    "broker": "localhost",
-    "port": "1883",
-    "clientid": ""
-  },
-  {
-    "id": "f8ee169b.a8a4e8",
-    "type": "watson-conversation-v1",
-    "z": "dff7750b.90bc68",
-    "name": "Amy Ingram",
-    "workspaceid": "06b4c2e5-281f-46ca-a07e-30745d3240b1",
-    "multiuser": true,
-    "context": true,
-    "x": 343,
-    "y": 305,
-    "wires": [
-      [
-        "b01f9040.8ce62",
-        "40c4402b.63c92",
-        "5b31d8bf.4d79e8"
-      ]
-    ]
-  },
-  {
-    "id": "4a757760.10dce8",
-    "type": "Slack Bot In",
-    "z": "dff7750b.90bc68",
-    "name": "Amy's Slack (IN-RW)",
-    "apiToken": "xoxb-120848116019-2dQ1zY30ryweFM8o9NEdZwuz",
-    "channel": "",
-    "x": 95,
-    "y": 299,
-    "wires": [
-      [
-        "33a1bc0e.a877e4"
-      ]
-    ]
-  },
-  {
-    "id": "2cecea39.e91006",
-    "type": "Slack Bot Out",
-    "z": "dff7750b.90bc68",
-    "name": "Amy's Slack (Out-RW)",
-    "apiToken": "xoxb-120848116019-2dQ1zY30ryweFM8o9NEdZwuz",
-    "channel": "",
-    "x": 1210.5,
-    "y": 504,
-    "wires": []
-  },
-  {
-    "id": "76793516.3b4e8c",
-    "type": "http response",
-    "z": "dff7750b.90bc68",
-    "name": "",
-    "x": 754.5,
-    "y": 631,
-    "wires": []
-  },
-  {
-    "id": "627657ea.2c4e48",
-    "type": "debug",
-    "z": "dff7750b.90bc68",
-    "name": "Input Object Debug",
-    "active": false,
-    "console": "false",
-    "complete": "true",
-    "x": 328.5,
-    "y": 199,
-    "wires": []
-  },
-  {
-    "id": "b002e1ed.9a1f4",
-    "type": "debug",
-    "z": "dff7750b.90bc68",
-    "name": "",
-    "active": false,
-    "console": "false",
-    "complete": "payload",
-    "x": 1100.5,
-    "y": 243,
-    "wires": []
-  },
-  {
-    "id": "b01f9040.8ce62",
-    "type": "function",
-    "z": "dff7750b.90bc68",
-    "name": "prepare answer",
-    "func": "var WatsonResponse = JSON.stringify(msg.payload.output.text);\n\nWatsonResponse = WatsonResponse.replace(/[\"]+/g, '');\nWatsonResponse = WatsonResponse.replace(/[[\\]]/g,'');\n\nvar DynFunc = WatsonResponse;\n\nif( DynFunc.indexOf('the list of stories to be written') >= 0){\n  // list stories to be written\n  msg.payload = \"pretend this is a list of stories\";\n  return [null,msg];\n} else {\n  // default action\n  msg.payload = WatsonResponse;\n  return [msg,null];\n}\n",
-    "outputs": "2",
-    "noerr": 0,
-    "x": 358.5,
-    "y": 400,
-    "wires": [
-      [
-        "be6db449.cf80e8"
-      ],
-      []
-    ]
-  },
-  {
-    "id": "d9efdd0d.cc0bd",
-    "type": "debug",
-    "z": "dff7750b.90bc68",
-    "name": "Prepare Answer Object Debug",
-    "active": false,
-    "console": "false",
-    "complete": "true",
-    "x": 1040.5,
-    "y": 286,
-    "wires": []
-  },
-  {
-    "id": "40c4402b.63c92",
-    "type": "debug",
-    "z": "dff7750b.90bc68",
-    "name": "Conversation Object Debug",
-    "active": false,
-    "console": "true",
-    "complete": "payload",
-    "x": 733.5,
-    "y": 132,
-    "wires": []
-  },
-  {
-    "id": "be6db449.cf80e8",
-    "type": "trigger",
-    "z": "dff7750b.90bc68",
-    "op1": "",
-    "op2": "",
-    "op1type": "nul",
-    "op2type": "pay",
-    "duration": "250",
-    "extend": false,
-    "units": "ms",
-    "reset": "[]",
-    "name": "",
-    "x": 680,
-    "y": 370,
-    "wires": [
-      [
-        "2cecea39.e91006",
-        "d9efdd0d.cc0bd"
-      ]
-    ]
-  },
-  {
-    "id": "49ce7879.b00d68",
-    "type": "function",
-    "z": "dff7750b.90bc68",
-    "name": "prepare answer - simple",
-    "func": "msg.payload = JSON.stringify(msg.payload.output.text);\nreturn msg;\n",
-    "outputs": 1,
-    "noerr": 0,
-    "x": 556.5,
-    "y": 635,
-    "wires": [
-      []
-    ]
-  },
-  {
-    "id": "87d895a8.2ef2e8",
-    "type": "e-mail",
-    "z": "dff7750b.90bc68",
-    "server": "smtp.gmail.com",
-    "port": "465",
-    "name": "",
-    "dname": "",
-    "x": 612.5,
-    "y": 477,
-    "wires": []
-  },
-  {
-    "id": "33a1bc0e.a877e4",
-    "type": "function",
-    "z": "dff7750b.90bc68",
-    "name": "Set User",
-    "func": "msg.user = msg.slackObj.fromUser\nreturn msg;",
-    "outputs": 1,
-    "noerr": 0,
-    "x": 119.5,
-    "y": 367,
-    "wires": [
-      [
-        "627657ea.2c4e48",
-        "f8ee169b.a8a4e8"
-      ]
-    ]
-  },
-  {
-    "id": "5b31d8bf.4d79e8",
-    "type": "function",
-    "z": "dff7750b.90bc68",
-    "name": "debug deep",
-    "func": "var WatsonNodes = JSON.stringify(msg.payload.output.nodes_visited);\n\nmsg.payload = WatsonNodes\nreturn msg;",
-    "outputs": 1,
-    "noerr": 0,
-    "x": 577.5,
-    "y": 292,
-    "wires": [
-      [
-        "46135730.10abf8"
-      ]
-    ]
-  },
-  {
-    "id": "46135730.10abf8",
-    "type": "debug",
-    "z": "dff7750b.90bc68",
-    "name": "",
-    "active": true,
-    "console": "false",
-    "complete": "false",
-    "x": 702.5,
-    "y": 238,
-    "wires": []
-  }
+    {
+        "id": "dff7750b.90bc68",
+        "type": "tab",
+        "label": "Amy Ingram on Slack"
+    },
+    {
+        "id": "f8ee169b.a8a4e8",
+        "type": "watson-conversation-v1",
+        "z": "dff7750b.90bc68",
+        "name": "Amy Ingram",
+        "workspaceid": "d5a2d440-0856-42da-ab60-ecac47239731",
+        "multiuser": true,
+        "context": true,
+        "x": 793,
+        "y": 31,
+        "wires": [
+            [
+                "b01f9040.8ce62",
+                "40c4402b.63c92",
+                "5b31d8bf.4d79e8"
+            ]
+        ]
+    },
+    {
+        "id": "4a757760.10dce8",
+        "type": "Slack Bot In",
+        "z": "dff7750b.90bc68",
+        "name": "Amy's Slack (IN-RW)",
+        "apiToken": "xoxb-120848116019-jDxnfbpkWUOzci2uh29SXSqP",
+        "channel": "",
+        "x": 102,
+        "y": 35,
+        "wires": [
+            [
+                "33a1bc0e.a877e4",
+                "76cc3cd5.32c644"
+            ]
+        ]
+    },
+    {
+        "id": "2cecea39.e91006",
+        "type": "Slack Bot Out",
+        "z": "dff7750b.90bc68",
+        "name": "Amy's Slack (Out-RW)",
+        "apiToken": "xoxb-120848116019-jDxnfbpkWUOzci2uh29SXSqP",
+        "channel": "",
+        "x": 369.5,
+        "y": 404,
+        "wires": []
+    },
+    {
+        "id": "627657ea.2c4e48",
+        "type": "debug",
+        "z": "dff7750b.90bc68",
+        "name": "Input Object Debug",
+        "active": false,
+        "console": "false",
+        "complete": "true",
+        "x": 431.5,
+        "y": 66,
+        "wires": []
+    },
+    {
+        "id": "b01f9040.8ce62",
+        "type": "function",
+        "z": "dff7750b.90bc68",
+        "name": "prepare answer",
+        "func": "var WatsonResponse = JSON.stringify(msg.payload.output.text);\nvar UserResponse = global.get(\"UserResponse\");\n\nUserResponse = UserResponse.replace(/[\"]+/g, '');\nUserResponse = UserResponse.replace(/[[\\]]/g,'');\n\nif (typeof WatsonResponse != \"undefined\") {\nWatsonResponse = WatsonResponse.replace(/[\"]+/g, '');\nWatsonResponse = WatsonResponse.replace(/[[\\]]/g,'');\n\nmsg.payload = WatsonResponse;\n\nvar msg2 = { payload: UserResponse };\n// Here are the relevant Happy Path nodes\n// Required to build an email Amy Ingram can\n// understand.\n//\n// [Node Name],[Short Desc]\n// 1.\n// 2.\n// 3.\n\nreturn [msg,msg2];\n}\n\n",
+        "outputs": "2",
+        "noerr": 0,
+        "x": 146.5,
+        "y": 408,
+        "wires": [
+            [
+                "be6db449.cf80e8"
+            ],
+            [
+                "3d88da17.ce8086"
+            ]
+        ]
+    },
+    {
+        "id": "d9efdd0d.cc0bd",
+        "type": "debug",
+        "z": "dff7750b.90bc68",
+        "name": "Prepare Answer Object Debug",
+        "active": false,
+        "console": "false",
+        "complete": "true",
+        "x": 225.5,
+        "y": 482,
+        "wires": []
+    },
+    {
+        "id": "40c4402b.63c92",
+        "type": "debug",
+        "z": "dff7750b.90bc68",
+        "name": "Conversation Object Debug",
+        "active": false,
+        "console": "true",
+        "complete": "payload",
+        "x": 873.5,
+        "y": 67,
+        "wires": []
+    },
+    {
+        "id": "be6db449.cf80e8",
+        "type": "trigger",
+        "z": "dff7750b.90bc68",
+        "op1": "",
+        "op2": "",
+        "op1type": "nul",
+        "op2type": "pay",
+        "duration": "400",
+        "extend": false,
+        "units": "ms",
+        "reset": "[]",
+        "name": "",
+        "x": 144,
+        "y": 444,
+        "wires": [
+            [
+                "2cecea39.e91006",
+                "d9efdd0d.cc0bd"
+            ]
+        ]
+    },
+    {
+        "id": "49ce7879.b00d68",
+        "type": "function",
+        "z": "dff7750b.90bc68",
+        "name": "prepare answer - backup",
+        "func": "var WatsonResponse = JSON.stringify(msg.payload.output.text);\n\nWatsonResponse = WatsonResponse.replace(/[\"]+/g, '');\nWatsonResponse = WatsonResponse.replace(/[[\\]]/g,'');\n\nvar DynFunc = WatsonResponse;\n\nreturn [WatsonResponse,UserResponse];\n\n//if( DynFunc.indexOf('the list of stories to be written') >= 0){\n  // list stories to be written\n//  msg.payload = \"pretend this is a list of stories\";\n// return [null,msg];\n//} else {\n  // default action\n//  msg.payload = WatsonResponse;\n//  return [msg,null];\n//}\n",
+        "outputs": 1,
+        "noerr": 0,
+        "x": 1085.5,
+        "y": 559,
+        "wires": [
+            []
+        ]
+    },
+    {
+        "id": "33a1bc0e.a877e4",
+        "type": "function",
+        "z": "dff7750b.90bc68",
+        "name": "Set User and UserResponse",
+        "func": "msg.user = msg.slackObj.fromUser\nglobal.set(\"UserResponse\", JSON.stringify(msg.payload))\nreturn msg;",
+        "outputs": 1,
+        "noerr": 0,
+        "x": 448.5,
+        "y": 30,
+        "wires": [
+            [
+                "627657ea.2c4e48",
+                "f8ee169b.a8a4e8"
+            ]
+        ]
+    },
+    {
+        "id": "5b31d8bf.4d79e8",
+        "type": "function",
+        "z": "dff7750b.90bc68",
+        "name": "Extract Convo Node Title",
+        "func": "var WatsonNodes = JSON.stringify(msg.payload.output.nodes_visited);\nif (typeof WatsonNodes != \"undefined\") {\nWatsonNodes = WatsonNodes.replace(/[\"]+/g, '');\nWatsonNodes = WatsonNodes.replace(/[[\\]]/g,'');\nmsg.payload = WatsonNodes\nreturn msg;\n}",
+        "outputs": 1,
+        "noerr": 0,
+        "x": 859.5,
+        "y": 106,
+        "wires": [
+            [
+                "46135730.10abf8"
+            ]
+        ]
+    },
+    {
+        "id": "46135730.10abf8",
+        "type": "debug",
+        "z": "dff7750b.90bc68",
+        "name": "Show Output Title",
+        "active": true,
+        "console": "false",
+        "complete": "payload",
+        "x": 1081.5,
+        "y": 105,
+        "wires": []
+    },
+    {
+        "id": "76cc3cd5.32c644",
+        "type": "debug",
+        "z": "dff7750b.90bc68",
+        "name": "",
+        "active": false,
+        "console": "false",
+        "complete": "true",
+        "x": 130.5,
+        "y": 140,
+        "wires": []
+    },
+    {
+        "id": "3d88da17.ce8086",
+        "type": "debug",
+        "z": "dff7750b.90bc68",
+        "name": "Current User Response",
+        "active": true,
+        "console": "false",
+        "complete": "payload",
+        "x": 203.5,
+        "y": 519,
+        "wires": []
+    }
 ]
