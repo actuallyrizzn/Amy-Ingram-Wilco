@@ -1499,7 +1499,7 @@
       "metadata": null,
       "conditions": "#cs-hello && @bot-salutations:(Amy Ingram)",
       "description": null,
-      "dialog_node": "Amy Wake-up / Direct to action",
+      "dialog_node": "node_001",
       "previous_sibling": null
     },
     {
@@ -1522,22 +1522,22 @@
       "output": {
         "text": "Don't worry about it! Bye!"
       },
-      "parent": "Amy Wake-up / Direct to action",
+      "parent": "node_001",
       "context": null,
       "created": "2016-12-16T16:06:19.563Z",
       "updated": "2016-12-20T22:40:27.007Z",
       "metadata": null,
       "conditions": "#Oopsie-Nevermind",
       "description": null,
-      "dialog_node": "End Conversation Abrupt",
-      "previous_sibling": "End Conversation"
+      "dialog_node": "node_004-end-conversation-abrupt",
+      "previous_sibling": "node_004-end-conversation"
     },
     {
       "go_to": null,
       "output": {
         "text": "I'm sorry, I didn't quite understand what you meant. I'm happy to help you out if you can be more specific."
       },
-      "parent": "Amy Wake-up / Direct to action",
+      "parent": "node_001",
       "context": null,
       "created": "2016-12-16T16:06:19.563Z",
       "updated": "2016-12-28T00:03:27.466Z",
@@ -1545,22 +1545,22 @@
       "conditions": "anything_else",
       "description": null,
       "dialog_node": "node_5_1478726874689",
-      "previous_sibling": "End Conversation Abrupt"
+      "previous_sibling": "node_004-end-conversation-abrupt"
     },
     {
       "go_to": null,
       "output": {
         "text": "OK, talk to you later, then."
       },
-      "parent": "Amy Wake-up / Direct to action",
+      "parent": "node_001",
       "context": null,
       "created": "2016-12-16T16:06:19.563Z",
       "updated": "2016-12-20T22:49:22.770Z",
       "metadata": null,
       "conditions": "#cs-goodbye",
       "description": null,
-      "dialog_node": "End Conversation",
-      "previous_sibling": "Enter Scheduling Mode"
+      "dialog_node": "node_004-end-conversation",
+      "previous_sibling": "node_003_schedule-mode"
     },
     {
       "go_to": null,
@@ -1572,14 +1572,14 @@
           "selection_policy": "sequential"
         }
       },
-      "parent": "Success / When",
+      "parent": "node_100_success-when",
       "context": null,
       "created": "2016-12-21T23:03:48.404Z",
       "updated": "2016-12-27T23:18:58.728Z",
       "metadata": null,
       "conditions": "anything_else",
       "description": null,
-      "dialog_node": "Success / Gather email",
+      "dialog_node": "node_101_success_get_email",
       "previous_sibling": null
     },
     {
@@ -1592,14 +1592,14 @@
           "selection_policy": "sequential"
         }
       },
-      "parent": "Success / Gather email",
+      "parent": "node_101_success_get_email",
       "context": null,
       "created": "2016-12-23T17:25:39.064Z",
       "updated": "2016-12-27T23:19:39.559Z",
       "metadata": null,
       "conditions": "#cs-yes",
       "description": null,
-      "dialog_node": "Yes, other participants",
+      "dialog_node": "yes-other",
       "previous_sibling": null
     },
     {
@@ -1612,15 +1612,15 @@
           "selection_policy": "sequential"
         }
       },
-      "parent": "Success / Gather email",
+      "parent": "node_101_success_get_email",
       "context": null,
       "created": "2016-12-23T17:26:07.193Z",
       "updated": "2016-12-28T01:22:37.404Z",
       "metadata": null,
       "conditions": "#cs-no",
       "description": null,
-      "dialog_node": "No, that's it.",
-      "previous_sibling": "Yes, other participants"
+      "dialog_node": "no-more-ppl.",
+      "previous_sibling": "yes-other"
     },
     {
       "go_to": null,
@@ -1632,7 +1632,7 @@
           "selection_policy": "sequential"
         }
       },
-      "parent": "Yes, other participants",
+      "parent": "yes-other",
       "context": null,
       "created": "2016-12-27T23:19:44.766Z",
       "updated": "2016-12-28T00:05:48.301Z",
@@ -1652,7 +1652,7 @@
           "selection_policy": "sequential"
         }
       },
-      "parent": "Amy heard her name",
+      "parent": "node_002_amy-heard-name",
       "context": null,
       "created": "2016-12-16T16:06:19.563Z",
       "updated": "2016-12-28T00:53:58.692Z",
@@ -1673,7 +1673,7 @@
           "selection_policy": "sequential"
         }
       },
-      "parent": "Enter Scheduling Mode",
+      "parent": "node_003_schedule-mode",
       "context": null,
       "created": "2016-12-27T19:20:53.637Z",
       "updated": "2016-12-28T01:01:44.588Z",
@@ -1694,7 +1694,7 @@
           "selection_policy": "sequential"
         }
       },
-      "parent": "Enter Scheduling Mode",
+      "parent": "node_003_schedule-mode",
       "context": null,
       "created": "2016-12-21T23:47:22.253Z",
       "updated": "2016-12-21T23:47:59.237Z",
@@ -1702,7 +1702,7 @@
       "conditions": "#Oopsie-Nevermind",
       "description": null,
       "dialog_node": "Fail / Nevermind",
-      "previous_sibling": "Fail / No Location Yet"
+      "previous_sibling": "fail-no-location"
     },
     {
       "go_to": null,
@@ -1723,7 +1723,7 @@
       "metadata": null,
       "conditions": "anything_else",
       "description": null,
-      "dialog_node": "Success / When",
+      "dialog_node": "node_100_success-when",
       "previous_sibling": null
     },
     {
@@ -1738,14 +1738,14 @@
           "selection_policy": "random"
         }
       },
-      "parent": "Amy Wake-up / Direct to action",
+      "parent": "node_001",
       "context": null,
       "created": "2016-12-20T22:39:44.211Z",
       "updated": "2016-12-28T00:02:56.825Z",
       "metadata": null,
       "conditions": "#cs-yes",
       "description": null,
-      "dialog_node": "Enter Scheduling Mode",
+      "dialog_node": "node_003_schedule-mode",
       "previous_sibling": "node_1_1482866604323"
     },
     {
@@ -1761,7 +1761,7 @@
           "selection_policy": "random"
         }
       },
-      "parent": "Amy heard her name",
+      "parent": "node_002_amy-heard-name",
       "context": null,
       "created": "2016-12-16T16:06:19.563Z",
       "updated": "2016-12-20T22:29:23.160Z",
@@ -1791,8 +1791,8 @@
       "metadata": null,
       "conditions": "@bot-salutations:(Amy Ingram)",
       "description": null,
-      "dialog_node": "Amy heard her name",
-      "previous_sibling": "Amy Wake-up / Direct to action"
+      "dialog_node": "node_002_amy-heard-name",
+      "previous_sibling": "node_001"
     },
     {
       "go_to": {
@@ -1815,7 +1815,7 @@
       "go_to": {
         "return": null,
         "selector": "body",
-        "dialog_node": "Enter Scheduling Mode"
+        "dialog_node": "node_003_schedule-mode"
       },
       "output": {},
       "parent": "Direct Amy to action",
@@ -1849,10 +1849,10 @@
       "go_to": {
         "return": null,
         "selector": "body",
-        "dialog_node": "Success / Gather email"
+        "dialog_node": "node_101_success_get_email"
       },
       "output": {},
-      "parent": "Yes, other participants",
+      "parent": "yes-other",
       "context": null,
       "created": "2016-12-27T23:51:21.311Z",
       "updated": "2016-12-28T00:38:21.305Z",
@@ -1866,7 +1866,7 @@
       "go_to": {
         "return": null,
         "selector": "body",
-        "dialog_node": "Success / Gather email"
+        "dialog_node": "node_101_success_get_email"
       },
       "output": {
         "text": {
@@ -1876,7 +1876,7 @@
           "selection_policy": "sequential"
         }
       },
-      "parent": "Success / Gather email",
+      "parent": "node_101_success_get_email",
       "context": null,
       "created": "2016-12-28T01:18:54.543Z",
       "updated": "2016-12-28T01:22:37.404Z",
@@ -1884,13 +1884,13 @@
       "conditions": "anything_else",
       "description": null,
       "dialog_node": "node_15_1482887934054",
-      "previous_sibling": "No, that's it."
+      "previous_sibling": "no-more-ppl."
     },
     {
       "go_to": {
         "return": null,
         "selector": "body",
-        "dialog_node": "Success / Gather email"
+        "dialog_node": "node_101_success_get_email"
       },
       "output": {
         "text": {
@@ -1914,7 +1914,7 @@
       "go_to": {
         "return": null,
         "selector": "body",
-        "dialog_node": "Yes, other participants"
+        "dialog_node": "yes-other"
       },
       "output": {
         "text": {
@@ -1924,7 +1924,7 @@
           "selection_policy": "sequential"
         }
       },
-      "parent": "Yes, other participants",
+      "parent": "yes-other",
       "context": null,
       "created": "2016-12-28T01:18:36.162Z",
       "updated": "2016-12-28T01:19:25.791Z",
@@ -1943,7 +1943,7 @@
       "output": {
         "text": "I'm sorry; I didn't understand that. Did you need me?"
       },
-      "parent": "Amy heard her name",
+      "parent": "node_002_amy-heard-name",
       "context": null,
       "created": "2016-12-16T16:06:19.563Z",
       "updated": "2016-12-27T22:57:00.466Z",
@@ -1957,7 +1957,7 @@
       "go_to": {
         "return": null,
         "selector": "user_input",
-        "dialog_node": "Success / When"
+        "dialog_node": "node_100_success-when"
       },
       "output": {
         "text": {
@@ -1968,14 +1968,14 @@
           "selection_policy": "random"
         }
       },
-      "parent": "Enter Scheduling Mode",
+      "parent": "node_003_schedule-mode",
       "context": null,
       "created": "2016-12-21T23:44:23.191Z",
       "updated": "2016-12-28T01:02:05.887Z",
       "metadata": null,
       "conditions": "#cs-no",
       "description": null,
-      "dialog_node": "Fail / No Location Yet",
+      "dialog_node": "fail-no-location",
       "previous_sibling": null
     },
     {
@@ -2013,7 +2013,7 @@
           "selection_policy": "random"
         }
       },
-      "parent": "Amy Wake-up / Direct to action",
+      "parent": "node_001",
       "context": null,
       "created": "2016-12-27T19:23:24.843Z",
       "updated": "2016-12-28T00:46:42.047Z",
